@@ -1,0 +1,61 @@
+#app {
+    width: 767px;
+    margin: 50px auto;
+}
+.row {
+    height: 30px;
+}
+.column {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ECF0F1;
+}
+.black {
+    background-color: #2C3E50;
+}
+.red {
+    border: 1px solid #E74C3C;
+    background-color: #E74C3C;
+}
+.blue {
+    border: 1px solid #3498DB;
+    background-color: #3498DB;
+}
+.green {
+    background-color: #1ABC9C;
+}
+.button {
+    color: #1B9AF7;
+    background-color: #EEE;
+    border-color: #EEE;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    height: 30px;
+    padding: 5px 20px;
+    margin: 10px;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    border-radius: 3px;
+}
+.button:hover {
+    color: #fff;
+    background-color: #1B9AF7;
+    border-color: #1B9AF7;
+}
+.button:focus {
+    outline: none;
+}
