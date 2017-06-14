@@ -2,11 +2,13 @@
   <div>
     <h6>点击第一下空白方块设定起点(起点为红色方块) <div class="column red"></div>，点击第二个空白方块设置终点（再次点击重置起点）。</h6>
     <h6>正确的路线起点为红边绿块 <div class="column red green"></div>，终点是蓝边绿块 <div class="column blue green"></div></h6>
-    <div class="row" v-for="items in elements">
-        <div class="column"
-             :class="matchClass(item)"
-             :id="item.x + '-' + item.y"
-             v-for="item in items" @click="setElement(item)"></div>
+    <div class="container m-4">
+      <div class="row" v-for="items in elements">
+          <div class="column"
+               :class="matchClass(item)"
+               :id="item.x + '-' + item.y"
+               v-for="item in items" @click="setElement(item)"></div>
+      </div>
     </div>
     <button type="button" class="button" @click="setRandomObstacle()">随机障碍</button>
     <button type="button" class="button" @click="clearObstacle()">清空障碍</button>
