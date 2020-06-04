@@ -1,6 +1,6 @@
 # About algorithm
 
-Preview: [https://algorithm.iline.co/](https://algorithm.unie.fun/)
+Preview: [https://algorithm.unie.fun/](https://algorithm.unie.fun/)
 
 ## Installation And Preveiw
 
